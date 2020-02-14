@@ -1,0 +1,46 @@
+{
+  "name": "bitcoinpro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "npm run tsc && node dist/app.js",
+    "tsc": "tsc"
+  },
+  "author": "BitCoin",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/cors": "^2.8.4",
+    "@types/nodemailer": "^4.6.2",
+    "@types/request": "^2.47.1",
+    "@types/socket.io": "^1.4.36",
+    "binance-api-node": "^0.8.3",
+    "bitmex-realtime-api": "^0.4.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "fs": "0.0.2",
+    "moment": "^2.13.0",
+    "moment-timezone": "^0.5.21",
+    "mysql": "^2.16.0",
+    "node-schedule": "^1.3.0",
+    "nodemailer": "^4.6.8",
+    "request": "^2.88.0",
+    "socket.io": "^2.1.1",
+    "winston": "^3.0.0",
+    "winston-daily-rotate-file": "^3.3.0"
+  },
+  "execMap": {
+    "js": "node –harmony"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "@types/express": "^4.16.0",
+    "@types/moment-timezone": "^0.5.7",
+    "@types/mysql": "^2.15.5",
+    "@types/node": "^10.5.6",
+    "@types/winston": "^2.3.9",
+    "typescript": "^3.0.1"
+  }
+}
